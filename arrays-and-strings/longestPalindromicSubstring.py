@@ -1,6 +1,5 @@
 # concept: Expand around center:
 class Solution(object):
-    
     def longestPalindrome(self, s):
         """
         :type s: str
@@ -21,7 +20,6 @@ class Solution(object):
         return longest_str
 
     def expand(self, s, c1, c2):
-        # print(s, c1, c2, s[c1:c2+1])
         left = c1
         right = c2
         while left >= 0 and right < len(s) and s[left] == s[right]:
@@ -35,7 +33,6 @@ class Solution(object):
             left = 0
         if right >= len(s):
             right = len(s) - 1 
-        # print(s[left:right+1])
         return s[left:right+1]
 
 
