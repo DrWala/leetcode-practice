@@ -9,6 +9,20 @@ class TreeNode:
         return self.val
 
 
+"""
+Approach:
+
+Get each level of the binary tree and add them into an array. Then alternate
+the addition based on which level you are at. Use a boolean variable to track this.
+
+How to deal with the binary tree as levels?
+
+First, add the root's 2 children into an array. That is your "next level"
+Then go through each item in "next level" and add each of their children into
+another array. Keep going.
+"""
+
+
 class Solution:
     def zigzagLevelOrder(self, root: TreeNode):
         if root == None:
