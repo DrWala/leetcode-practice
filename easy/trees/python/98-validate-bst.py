@@ -12,7 +12,7 @@ class TreeNode:
 
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
-        pass
+        return self.is_valid_bst_helper(root, -math.inf, math.inf)
 
     def is_valid_bst_helper(self, root: Optional[TreeNode], lower, upper):
         if not root:
