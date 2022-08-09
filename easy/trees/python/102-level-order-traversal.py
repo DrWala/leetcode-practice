@@ -28,8 +28,5 @@ class Solution:
                     children.append(right)
             if children:
                 res.append([child.val for child in children])
-                q = children
-            else:
-                break
-
+            q = children
         return res
