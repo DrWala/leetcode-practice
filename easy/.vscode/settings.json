@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.cshtml": "html",
+        "vector": "cpp",
+        "unordered_map": "cpp"
+    }
+}
