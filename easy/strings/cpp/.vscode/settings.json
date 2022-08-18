@@ -2,6 +2,7 @@
     "files.associations": {
         "*.cshtml": "html",
         "iosfwd": "cpp",
-        "map": "cpp"
+        "map": "cpp",
+        "unordered_map": "cpp"
     }
 }
