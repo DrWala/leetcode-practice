@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.cshtml": "html",
+        "iosfwd": "cpp",
+        "map": "cpp"
+    }
+}
